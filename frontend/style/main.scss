@@ -1,0 +1,76 @@
+body {
+    background-color: #252627;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    img {
+        max-height: 40px;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        margin-right: 1000px;
+        .nav-link {
+            color: #ffffff;
+            font-family: 'Kanit', sans-serif;
+            & :hover {
+                color: #FFC50C;
+                font-family: 'Kanit', sans-serif;
+            }
+        }
+    }
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+    height: 70px;
+    border-radius: 0;
+}
+
+// Header
+header {
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    h4 {
+        color: #FFC50C;
+        font-family: 'Kanit', sans-serif;
+    }
+    h1,
+    p {
+        color: #ffffff;
+    }
+    h1 {
+        font-family: 'Kanit', sans-serif;
+        font-size: 50px;
+    }
+    p {
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .btn.btn-contact-me {
+        background-color: #FFC50C;
+        color: #ffffff;
+        font-size: 12px;
+        font-family: 'Roboto', sans-serif;
+        & :hover {
+            background-color: #615e0e;
+            color: #ffffff;
+            font-size: 12px;
+            font-family: 'Roboto', sans-serif;
+            img {
+                max-width: auto;
+                position: absolute;
+            }
+        }
+    }
+    .btn-instagram {
+        position: absolute;
+    }
+    .btn-dribbble {
+        margin-left: 72px;
+    }
+}
